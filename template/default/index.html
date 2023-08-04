@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,maximum-scale=1">
+<title>{pboot:sitetitle}</title>
+<meta name="keywords" content="{pboot:sitekeywords}">
+<meta name="description" content="{pboot:sitedescription}">
+<meta name="author" content="www.pb2345.com" />
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link href="{pboot:sitedomain}/skin/css/style.css" rel="stylesheet" media="screen" type="text/css" />
+<script language="javascript" type="text/javascript" src="{pboot:sitedomain}/skin/js/jquery-2.2.4.min.js"></script>
+</head>
+<body> 
+<div class="box-wrap">
+  {include file=head.html}
+  <div class="main">
+    <div class="top-bar">
+      <form method="get" action="{pboot:scaction}"  class="search-form">
+        <button class="mcico mico-search" type="submit"> </button>
+        <input type="text" class="search-input" name="keyword" placeholder="输入关键词，回车搜索..."/>
+      </form>
+    </div>
+    <div class="block-wrap">
+      <div class="pic-cover-list slider-container">
+        <div class="slider"> 
+        {pboot:list scode=* num=5 order=sorting isrecommend=1}
+         <a href="[list:link]" class="pic-cover-item slider__item" target="_blank"> <img src="[list:ico]" alt="[list:title]" class="pic-cover-item-img" />
+          <div class="slider__caption">
+            <h3 class="pic-cover-item-title">[list:title]</h3>
+          </div>
+          </a>
+          {/pboot:list}
+          </div>
+        <div class="slider__switch slider__switch--prev" data-ikslider-dir="prev"> <span class="mico-zuo"></span> </div>
+        <div class="slider__switch slider__switch--next" data-ikslider-dir="next"> <span class="mico-you"></span> </div>
+      </div>
+    </div>
+    <div class="post-list block-wrap">
+      {pboot:list scode=* num=10 order=sorting}
+      <div class="post-item">
+        <div class="post-item-cover"> <a class="post-item-img" href="[list:link]" title="[list:title]"><img class="hover-scale" src="[list:ico]" alt="[list:title]"></a>
+          <ul class="post-categories">
+            <li><a href="[list:sortlink]" target="_blank">[list:sortname]</a></li>
+          </ul>
+        </div>
+        <a href="[list:title]" class="post-item-title" title="[list:title]">
+        <h3>[list:title]</h3>
+        </a>
+        <div class="post-item-footer">
+          <div class="tag-wrap"> </div>
+          <div class="post-item-meta">[list:date style=Y-m-d]</div>
+        </div>
+        <p class="post-item-summary">[list:description lencn=90]</p>
+      </div>
+      {/pboot:list}
+    </div>
+  </div>
+  {include file=right.html}
+</div>
+{include file=foot.html}
+</body>
+</html>
