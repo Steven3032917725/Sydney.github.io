@@ -34,6 +34,12 @@ class MusicPlayer {
                     imgSrc: "./public/images/月半.jpg",
                     url: "./public/audios/李克勤 - 月半小夜曲.flac",
                 },
+                {
+                    title: "白羊",
+                    author: "徐秉龙、沈以诚",
+                    imgSrc: "./public/images/白羊.jpg",
+                    url: "./public/audios/徐秉龙、沈以诚 - 白羊.flac",
+                },
             ],
             currentIndex: 0,
         }
