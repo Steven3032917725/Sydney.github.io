@@ -40,6 +40,18 @@ class MusicPlayer {
                     imgSrc: "./public/images/白羊.jpg",
                     url: "./public/audios/徐秉龙、沈以诚 - 白羊.flac",
                 },
+                {
+                    title: "宿敌",
+                    author: "许嵩",
+                    imgSrc: "./public/images/宿敌.jpg",
+                    url: "./public/audios/许嵩 - 天龙八部之宿敌.flac",
+                },
+                {
+                    title: "九张机",
+                    author: "叶炫清",
+                    imgSrc: "./public/images/九张机.jpg",
+                    url: "./public/audios/叶炫清 - 九张机.flac",
+                },
             ],
             currentIndex: 0,
         }
