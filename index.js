@@ -22,6 +22,18 @@ class MusicPlayer {
                     imgSrc: "./public/images/郭顶.jpg",
                     url: "./public/audios/郭顶 - 凄美地.flac",
                 },
+                {
+                    title: "晚风心里吹",
+                    author: "李克勤",
+                    imgSrc: "./public/images/晚风.jpg",
+                    url: "./public/audios/李克勤 - 晚风心里吹.mp3",
+                },
+                {
+                    title: "月半小夜曲",
+                    author: "李克勤",
+                    imgSrc: "./public/images/月半.jpg",
+                    url: "./public/audios/李克勤 - 月半小夜曲.flac",
+                },
             ],
             currentIndex: 0,
         }
