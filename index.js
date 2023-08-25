@@ -7,50 +7,50 @@ class MusicPlayer {
                 {
                     title: "浮夸",  // 歌曲名
                     author: "陈奕迅",   // 歌手
-                    imgSrc: "./public/images/陈奕迅.jpg", // 图片路径
-                    url: "./public/audios/陈奕迅 - 浮夸.flac", // 音频路径
+                    imgSrc: "./public/images/陈奕迅.webp", // 图片路径
+                    url: "./public/audios/陈奕迅 - 浮夸.mp3", // 音频路径
                 },
                 {
                     title: "富士山下",
                     author: "陈奕迅",
-                    imgSrc: "./public/images/陈奕迅1.jpg",
-                    url: "./public/audios/陈奕迅 - 富士山下.flac",
+                    imgSrc: "./public/images/陈奕迅1.webp",
+                    url: "./public/audios/陈奕迅 - 富士山下.mp3",
                 },
                 {
                     title: "凄美地",
                     author: "郭顶",
-                    imgSrc: "./public/images/郭顶.jpg",
-                    url: "./public/audios/郭顶 - 凄美地.flac",
+                    imgSrc: "./public/images/郭顶.webp",
+                    url: "./public/audios/郭顶 - 凄美地.mp3",
                 },
                 {
                     title: "晚风心里吹",
                     author: "李克勤",
-                    imgSrc: "./public/images/晚风.jpg",
+                    imgSrc: "./public/images/晚风.webp",
                     url: "./public/audios/李克勤 - 晚风心里吹.mp3",
                 },
                 {
                     title: "月半小夜曲",
                     author: "李克勤",
-                    imgSrc: "./public/images/月半.jpg",
-                    url: "./public/audios/李克勤 - 月半小夜曲.flac",
+                    imgSrc: "./public/images/月半.webp",
+                    url: "./public/audios/李克勤 - 月半小夜曲.mp3",
                 },
                 {
                     title: "白羊",
                     author: "徐秉龙、沈以诚",
-                    imgSrc: "./public/images/白羊.jpg",
-                    url: "./public/audios/徐秉龙、沈以诚 - 白羊.flac",
+                    imgSrc: "./public/images/白羊.webp",
+                    url: "./public/audios/徐秉龙、沈以诚 - 白羊.mp3",
                 },
                 {
                     title: "宿敌",
                     author: "许嵩",
-                    imgSrc: "./public/images/宿敌.jpg",
-                    url: "./public/audios/许嵩 - 天龙八部之宿敌.flac",
+                    imgSrc: "./public/images/宿敌.webp",
+                    url: "./public/audios/许嵩 - 天龙八部之宿敌.mp3",
                 },
                 {
                     title: "九张机",
                     author: "叶炫清",
-                    imgSrc: "./public/images/九张机.jpg",
-                    url: "./public/audios/叶炫清 - 九张机.flac",
+                    imgSrc: "./public/images/九张机.webp",
+                    url: "./public/audios/叶炫清 - 九张机.mp3",
                 },
             ],
             currentIndex: 0,
